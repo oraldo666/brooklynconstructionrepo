@@ -1,0 +1,33 @@
+.servicesCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.servicesCard:hover {
+  opacity: 1;
+}
+
+.servicesDescription {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 3px -2px #ff0000;
+}
+
+@media screen and (max-width: 640px) {
+  .servicesDescription {
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .servicesDescription {
+    margin-top: 90px;
+  }
+}

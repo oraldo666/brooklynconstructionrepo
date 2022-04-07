@@ -1,0 +1,19 @@
+.wrapper-cl {
+  height: 100vh;
+  background-color: #374151;
+  position: absolute;
+  top: 80px;
+  z-index: +1;
+}
+
+.bgc-style {
+  margin: 20px auto;
+}
+
+.logoStyle {
+  height: 50px;
+}
+
+.menuToggler {
+  margin-top: 5px;
+}
