@@ -6,7 +6,7 @@ function ServicesPage() {
   return (
     <div>
       <div>
-        <h1 className="text-center text-3xl m-5  md:m-10 text-orange-400 titleContainer">
+        <h1 className="text-center text-3xl m-5  md:m-10 titleContainer">
           We include a variety of services for the construction and renovation
           of your houses.
         </h1>

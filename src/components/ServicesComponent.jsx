@@ -11,9 +11,7 @@ function ServicesComponent() {
             src={require(`../assets/images/services/${item.img}`)}
             alt="Image here"
           />
-          <h2 className="servicesDescription text-orange-400">
-            {item.description}
-          </h2>
+          <h2 className="servicesDescription ">{item.description}</h2>
         </div>
       ))}
     </div>

@@ -17,14 +17,19 @@ function HomePage() {
     <div className=" ">
       <div className="backgroundStyles">
         <img src={webCover} className="w-full" alt="" />
-        <div className="textStyle">
+
+        <div>
+          <h1 className="webCoverTitle">HOUSE CONSTRUCTION AND RENOVATION</h1>
+        </div>
+
+        {/* <div className="textStyle">
           <h2 className="firstTEXT">REMODELING SERVICES</h2>
 
           <h3 className="text-rose-900 font-black opacity-100">
             Residential and Commercial renovations
           </h3>
-        </div>
-        <div className="textStyleTwo underline ">
+        </div> */}
+        {/* <div className="textStyleTwo underline ">
           <h1>
             <span className="text-orange-500">25</span> YEARS IN THE INDUSTRY
           </h1>
@@ -33,7 +38,7 @@ function HomePage() {
           <h2>Plaster</h2>
           <h2>Stone Work</h2>
           <h2>Tiles and more...</h2>
-        </div>
+        </div> */}
         <div className="buttonsContainer relative">
           <ContactButtonsComponent />
         </div>
@@ -76,8 +81,6 @@ function HomePage() {
           <AiOutlineMail fontSize="5em" />
         </a>
       </div>
-
-
     </div>
   );
 }
