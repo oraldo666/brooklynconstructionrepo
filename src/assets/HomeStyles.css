@@ -1,6 +1,13 @@
-/* .backgroundStyles {
-  position: relative;
+/* @media screen and (max-width: 1200px) {
+  .backgroundStyles {
+    height: 100vh;
+  }
+}
 
+@media screen and (max-width: 1199px) {
+  .backgroundStyles {
+    height: auto;
+  }
 } */
 
 /* @media screen and (max-width: 900px) {
